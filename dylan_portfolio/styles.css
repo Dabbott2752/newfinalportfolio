@@ -1,0 +1,255 @@
+@charset "UTF-8";
+body {
+    background-color: #60068D;
+	background-image: url("portimages/sfmspyposter.png");
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif, canada-type-gibson,sans-serif;
+    font-size: 14px;
+	background-size: contain;
+    }
+
+header {
+    width: 1280px;
+    height: 486px;
+    background-color: #008000;
+    background-image: url("portimages/drawnspy2.png");
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: -1px;
+    padding-left: 0px;
+    right: 0px;
+	background-position: center;
+	background-size: cover;
+}
+#container {
+    width: 1280px;
+    height: auto;
+    margin: auto;
+    background-color: rgba(255,255,255,1.00)
+}
+
+li{
+    float: right;
+    margin-left: -15px;
+    margin-right: 55px;
+    border-width: 0px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+
+ul, ol{
+    margin-top: 12px;
+    margin-right: 158px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    padding-right: 0px;
+    width: 245px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+p{
+    font-family: canada-type-gibson,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 341px;
+    padding-right: 0px;
+    margin-right: 91px;
+    float: left;
+    margin-left: 26px;
+}
+
+h3 {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/*Float the Aside so it displays next to the main.*/
+aside {
+    width: 150px;
+    height: 1883px;
+    float: left;
+    background-color: rgba(194,194,194,1.00);
+}
+
+h1{
+    color: rgba(118,118,118,1);
+    font-family: politica,san-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24pt;
+    float: left;
+    margin-right: 0px;
+    margin-left: 26px;
+}
+
+.floatleft{
+	float: left;
+}
+
+article {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*Float the Main so it shows up next to the Aside. Reduce width by 150px so they both line header.*/
+main {
+    width: 1100px;
+    height: 1863px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: rgba(227,227,227,1.00);
+}
+video {
+	width: 600px;
+	height: 600px;
+	margin:auto;
+}
+
+
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 589px;
+    height: 42px;
+    background-color: rgba(118,118,118,1.00);
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-right: 0px;
+    float: right;
+}
+
+nav {
+    width: 300px;
+    height: 200px;
+	position: static;
+}
+#container nav li {
+    list-style-type: none;
+    font-family: neonoir, sans-serif;
+    font-size: 18pt;
+	display: list-item;
+	float: none;
+	margin: 0px, 0px, 20px, 0px;
+    width: 260px;
+	text-allign: center;
+}
+#container nav ul {
+    margin: auto;
+    width: 565px;
+}
+
+nav a:link {
+    color: rgba(201,70,72,1.00);
+    text-decoration: none;
+    padding-top: 0px;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-bottom: 0px;
+ 
+}
+nav a:visited {
+    text-decoration: none;
+    color: rgba(161,0,2,1.00);
+}
+nav a:hover {
+    text-decoration: none;
+	color: #FFFFFF;
+	background-color: rgba(255, 53, 57, 1.00);
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: rgba(118,118,118,1);
+    font-size: 18pt;
+}
+
+
+img {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    float: right;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+a {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.column {
+	width: 250px;
+	height:750px;
+	float:left;
+	margin-left:60px;
+	margin-right:20px;
+}
+
+@media (max-width : 1024px ){
+	#container{
+		width:768px;
+	}
+	header{
+		width:768px;
+	}
+	nav{
+		width:768px;
+	}
+	main{
+		width:598px;
+	}
+	footer{
+		width:768px;
+	}
+	.column{
+		margin: 0px 20px 0px 20px;
+	}
+}
+
+/*Rules the page will follow on mobile devices*/
+@media only screen and (max-width:375px){
+	#container{
+		width:300px;
+	}
+	header{
+		width:300px;
+		background-image: url("taipeiportfolioheader.png")
+	}
+	nav{
+		width:300px;
+		height: 200px;
+		position: static;
+	}
+	main{
+		width:300px;
+	}
+	footer{
+		width:300px;
+	}
+	aside{
+		display:none;
+	}
+	.column{
+		margin: 0px 20px 0px 20px;
+	}
+}
+.submit_btn {
+}
